@@ -12,6 +12,7 @@ val akkaVersion = "2.3.5"
 libraryDependencies ++= Seq(
   "io.spray" %% "spray-can" % sprayVersion,
   "io.spray" %% "spray-routing" % sprayVersion,
+  "io.spray" %% "spray-json" % "1.3.0",
   "com.typesafe.akka" %% "akka-actor" % akkaVersion,
   "io.spray" %% "spray-testkit" % sprayVersion % "test",
   "org.scalatest" %% "scalatest" % "2.2.2" % "test"
